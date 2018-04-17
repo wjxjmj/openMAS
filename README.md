@@ -1,5 +1,5 @@
-# OpenMAS A research and simulation library for multi-agent systems. 
-The first version of this library is expected to publish before 2018/06/30.
+# OpenMAS 
+A research and simulation library for multi-agent systems. The first version of this library is expected to publish before 2018/06/30.
 
 This library is concerned to provide a set of easy-to-use simulation tools for researchers in fields such as multi-agent systems, multi-robot systems, wireless sensor networks, economic networks and ecological networks.
 
