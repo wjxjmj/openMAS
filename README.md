@@ -22,7 +22,7 @@ This library is concerned to provide a set of easy-to-use simulation tools for r
 * smart grids 
 * sellers and consumers
 
-## Communication capability support 
+## communication capability support 
 * sensors 
 * wireless networks 
 * random communication topologies 
@@ -30,17 +30,17 @@ This library is concerned to provide a set of easy-to-use simulation tools for r
 * switching communication topologies 
 * time-varying communication topologies
 
-## Visualization support 
+## visualization support 
 * 2D animation 
 * 3D animation 
 * GIF files support 
 * video files support
 
-## Simulation methods support 
+## simulation methods support 
 * Runge-Kutta methods 
 * Fixed-step methods
 
-## Multi-levels interface 
+## multi-levels interface 
 * Level-0 interface. In this level, we provide a template including a ode32 simulation template and a fixed-step template and the user can control all the variables and to build a novel system. 
 * Level-1 interface. In this level, we provide a serious of common systems and the users just take care of the algorithm parts and get rid of the details of simulation details. 
 * level-2 interface. In this level, we provide a set of common agents and users can only concentrating on the distributed protocols.
