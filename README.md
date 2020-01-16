@@ -5,11 +5,11 @@ A research and simulation library for multi-agent systems. This library is conce
 
 usage:
  Firstly, regist dynamic variables using global variable state. For example:
-'''
+```
 global state
 state.x=unifrnd(-1,1,[2,10]);
 state.theta=unifrnd(-pi,pi,[1,10]);
-'''
+```
 Then you have regist 10 nonholonomic particles with initial random values.
 
 Next, you could define a global variable named 'para' to contain parameters. For example:
