@@ -13,13 +13,13 @@ state.theta=unifrnd(-pi,pi,[1,10]);
 Then you have regist 10 nonholonomic particles with initial random values.
 
 Next, you could define a global variable named 'para' to contain parameters. For example:
-```
+```octave
 global para
 para.c1=1;
 para.c2=2;
 ```
 Then, you should define a function to describe the differential equations. In this function, you need to claim global variables named 'state' and 'grad'. In addtion, you also need the 'para' if you need parameters. Once you regist a variable such as x and theta, then there will be automatically a grad_x and grad_theta and you have to assign values to them.
-```
+```octave
 function myAlgorithm(t)
 global grad state para
 grad.dot_x = %some values
@@ -30,7 +30,7 @@ After doing that, you need to start the simulation by a simple function 'go'. Fo
 go(@myAlgorithm);
 
 When finished, the evolution of state is recorded into a global variable 'result' and you can take the data directly by name+His. For example:
-```
+```octave
 global result
 result.xHis
 result.thetaHis
